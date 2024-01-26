@@ -1,0 +1,206 @@
+.make-your-travel,
+.special-offers-to {
+  position: relative;
+  display: inline-block;
+  width: 440px;
+}
+
+.special-offers-to {
+  font-size: var(--montserrat-medium-20-size);
+  font-weight: 500;
+  font-family: var(--montserrat-semibold-14);
+  width: 375px;
+}
+.flights-search-inner,
+.make-your-travel-whishlist-we-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.make-your-travel-whishlist-we-parent {
+  gap: 8px;
+}
+.flights-search-inner {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 1248px;
+  height: 537px;
+  padding: 80px 174px 120px 126px;
+  box-sizing: border-box;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.header-logged-in-child,
+.header-logged-in-inner,
+.header-logged-in-item {
+  position: absolute;
+  margin: 0 !important;
+  top: 82px;
+  background-color: var(--mint-green);
+  width: 103px;
+  height: 5px;
+}
+.header-logged-in-child {
+  left: 243px;
+  display: none;
+  z-index: 0;
+}
+.header-logged-in-inner,
+.header-logged-in-item {
+  left: 1078px;
+  opacity: 0;
+  z-index: 1;
+}
+.header-logged-in-inner {
+  left: 104px;
+  width: 107px;
+  z-index: 2;
+}
+.airplane-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.find-flight {
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.airplane-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.find-stays {
+  position: relative;
+  font-weight: 600;
+}
+.frame-container,
+.frame-div,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-parent {
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.frame-container,
+.frame-div {
+  align-items: center;
+}
+.frame-div {
+  z-index: 3;
+}
+.frame-container {
+  gap: 16px;
+}
+.frame-child {
+  position: relative;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  display: none;
+  z-index: 0;
+}
+.john-d {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.arrow-down-icon,
+.frame-item {
+  position: absolute;
+  margin: 0 !important;
+}
+.frame-item {
+  top: 33px;
+  left: 33px;
+  border-radius: 50%;
+  background-color: var(--blackish-green);
+  width: 10px;
+  height: 10px;
+  display: none;
+  z-index: 2;
+}
+.arrow-down-icon {
+  top: 31px;
+  left: 31px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.ellipse-parent,
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-parent {
+  position: relative;
+  gap: var(--gap-9xs);
+}
+.frame-group {
+  gap: var(--gap-13xl);
+  z-index: 4;
+}
+.header-logged-in,
+.logo-1-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.header-logged-in {
+  background-color: var(--neutrals);
+  box-shadow: 0 4px 16px rgba(17, 34, 17, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 104px;
+  box-sizing: border-box;
+}
+.logo-1-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.head-logined {
+  position: absolute;
+  top: 3px;
+  left: -76px;
+  width: 1344px;
+  height: 87px;
+  font-size: var(--montserrat-semibold-14-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-semibold-14);
+}
+.flights-search {
+  position: relative;
+  background-color: #fafbfc;
+  width: 100%;
+  height: 627px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 45px;
+  color: var(--neutrals);
+  font-family: var(--font-tradegothic-lt-extended);
+}
