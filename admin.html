@@ -1,17 +1,17 @@
-<!-- login.html -->
+<!-- admin.html -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Admin Login Page</title>
   <link rel="stylesheet" href="login_style.css">
 </head>
 <body>
   <div class="container">
-    <form class="login-form" action="userlogin.php" method="post">
-      <h2>Login</h2>
+    <form class="login-form" action="adminlogin.php" method="post">
+      <h2>Admin Login</h2>
       <div class="input-group">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required>
@@ -22,9 +22,8 @@
       </div>
       <button type="submit">Login</button>
     </form>
-    <a href="register.html" class="register-button">Register</a>
     <div class="admin-login">
-      <button class="admin-login-button" onclick="window.location.href='admin.html'">Admin Login</button>
+      <button class="admin-login-button" onclick="window.location.href='login.html'">User login</button>
     </div>
   </div>
 </body>
